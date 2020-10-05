@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import "values";
+@import "fonts/fonts";
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color:#1a1a1a;
+    margin-top: 100px;
+    .footer__block {
+        width: 95%;
+        margin: 0 auto;
+        height: 300px;
+        background-color: gold;
+        border-radius:5px 5px 0px 0px;
+    }
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'GreatVibe';
+  src: url("../src/fonts/GreatVibes/GreatVibes-Regular.otf");
+  src: local("GreatVibe"), url("../src/scss/fonts/GreatVibes/GreatVibes-Regular.woff") format("woff"), url("../src/scss/fonts/GreatVibes/GreatVibes-Regular.otf") format("otf"), url("../src/scss/fonts/GreatVibes/GreatVibes-Regular.ttf") format("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'BreeSerifBold';
+  src: url("../src/fonts/BreeSerifBold/BreeSerifBold.otf");
+  src: local("BreeSerif"), url("../src/scss/fonts/BreeSerifBold/BreeSerifBold.otf") format("otf"), url("../src/scss/fonts/BreeSerifBold/BreeSerifBold.ttf") format("ttf"), url("../src/scss/fonts/BreeSerifBold/BreeSerifBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'BreeSerifRegular';
+  src: url("../src/fonts/BreeSerifRegular/BreeSerif-Regular.otf");
+  src: local("BreeSerifRegular"), url("../src/scss/fonts/BreeSerifRegular/BreeSerif-Regular.otf") format("otf"), url("../src/scss/fonts/BreeSerifRegular/BreeSerif-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../src/scss/fonts/Roboto/Roboto-Regular.woff") format("woff");
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #1a1a1a;
+  margin-top: 100px;
+}
+
+.footer .footer__block {
+  width: 95%;
+  margin: 0 auto;
+  height: 300px;
+  background-color: gold;
+  border-radius: 5px 5px 0px 0px;
+}
